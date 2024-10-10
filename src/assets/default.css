@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+
+@theme {
+    --default-font-family: 'Space Grotesk', serif;
+    --default-transition-duration: 300ms;
+
+    /* Page Colors */
+
+    --color-background: var(--color-gray-900);
+    --color-text: var(--color-blue-200);
+
+    /* Utility */
+
+    --spacing-xs: var(--spacing-0.5);
+    --spacing-sm: var(--spacing-1);
+    --spacing-md: var(--spacing-2);
+    --spacing-lg: var(--spacing-4);
+    --spacing-xl: var(--spacing-8);
+    --spacing-2xl: var(--spacing-16);
+    --spacing-3xl: var(--spacing-32);
+}
+
+html,
+body {
+    height: 100dvh;
+    text-underline-offset: 6px;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+@layer base {
+    a {
+        text-decoration: underline;
+    }
+}

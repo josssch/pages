@@ -1,0 +1,24 @@
+{
+    "name": "@josssch/pages",
+    "version": "1.0.0",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "dev": "vite dev",
+        "format": "prettier --write .",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+        "@poppanator/sveltekit-svg": "^4.2.1",
+        "@sveltejs/adapter-static": "^3.0.5",
+        "@sveltejs/kit": "^2.6.2",
+        "@sveltejs/vite-plugin-svelte": "^3.1.2",
+        "@tailwindcss/vite": "^4.0.0-alpha.26",
+        "prettier": "^3.3.3",
+        "prettier-plugin-svelte": "^3.2.7",
+        "svelte": "^4.2.19",
+        "tailwindcss": "^4.0.0-alpha.26",
+        "vite": "^5.4.8"
+    }
+}
