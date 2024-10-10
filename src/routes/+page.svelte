@@ -10,7 +10,7 @@
     <p>
         Welcome to my website! I'm a software developer based in 🇨🇦 Ontario,
         I've been writing code since the age of <b>11</b>
-        <sub>({new Date().getFullYear() - 2016} years)</sub> and haven't stopped
+        <sub>({new Date().getFullYear() - 2015} years)</sub> and haven't stopped
         since.
     </p>
 
